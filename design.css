@@ -152,3 +152,53 @@ footer {
   color: #000;
   margin-top: 40px;
 }
+
+/* any device optimization */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-section img {
+    width: 180px;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .grid-section {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .project-list img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
